@@ -1,0 +1,218 @@
+(footprint "691382000004"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "WR-TBL Series 382 - 2.50 mm Vertical PCB Header")
+	(tags "THT terminal block")
+	(property "Reference" "REF**"
+		(at 0 5.4 0)
+		(layer "F.SilkS")
+		(uuid "f5686a6b-c935-44c1-9abd-184d8d955c13")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "691382000004"
+		(at 0 -5.4 0)
+		(layer "F.Fab")
+		(uuid "edd0ff24-04a0-4f88-9013-0d5d440df424")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "55ccde13-e722-4290-8a46-f7d5c7e7cda8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "WR-TBL Series 382 - 2.50 mm Vertical PCB Header"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a5eaf5c3-132e-4a03-b1ae-e3e38faeaf23")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8f7784d3-9fb5-4609-b078-e12ae56b1b3b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -6 -4.05)
+		(end 6 -4.05)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3160f03c-3aff-44d2-a759-cc74193582fe")
+	)
+	(fp_line
+		(start -6 4.05)
+		(end -6 -4.05)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "58a22c01-a1d6-4123-a0a5-68e6a1cd8a69")
+	)
+	(fp_line
+		(start -6 4.05)
+		(end 6 4.05)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0ee5d51f-45d4-4a9e-b16c-f96a8d5e29e5")
+	)
+	(fp_line
+		(start 6 4.05)
+		(end 6 -4.05)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "85491eb0-5c70-453a-a892-a360acc4ef53")
+	)
+	(fp_line
+		(start -6.4 -4.4)
+		(end 6.4 -4.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "29780b70-53a7-416a-8a91-b37443605b13")
+	)
+	(fp_line
+		(start -6.4 4.4)
+		(end -6.4 -4.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9b065677-8edc-4e37-b73b-f29b9551baa8")
+	)
+	(fp_line
+		(start -6.4 4.4)
+		(end 6.4 4.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "59975945-1c15-442b-b802-834c6eb38057")
+	)
+	(fp_line
+		(start 6.4 4.4)
+		(end 6.4 -4.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "eef267bd-1a39-49b4-961e-0e33bd24b0d4")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -7.16 0)
+		(layer "F.Fab")
+		(uuid "3845d799-94b0-4d8f-96b6-c7e7f70a8848")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole oval
+		(at -3.75 0.2)
+		(size 2 3)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "b4b0ee1c-a4f0-4226-9e57-64ceea65517f")
+	)
+	(pad "2" thru_hole oval
+		(at -1.25 0.2)
+		(size 2 3)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "fd7bd73d-5b3b-4cf1-b963-12ce5ef16577")
+	)
+	(pad "3" thru_hole oval
+		(at 1.25 0.2)
+		(size 2 3)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "59a795cd-995b-4182-81b1-ff65c6fc47e8")
+	)
+	(pad "4" thru_hole oval
+		(at 3.75 0.2)
+		(size 2 3)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "df439950-b049-4147-b169-af63ba3d62ee")
+	)
+	(model "${KICAD_MIK_LIB_DIR}/3d-models/691381000004 (rev1).stp"
+		(offset
+			(xyz 0 1 16.3)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 180)
+		)
+	)
+	(model "${KICAD_MIK_LIB_DIR}/3d-models/691382000004 (rev1).stp"
+		(offset
+			(xyz 0 0 5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
